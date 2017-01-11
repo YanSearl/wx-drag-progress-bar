@@ -1,0 +1,25 @@
+
+    <view class="drag-info">
+        <view class="drag">
+            <view class="drag-l drag-icon">
+                <view class="icon"></view>
+            </view>
+            <view class="drag-progress-bar">
+                <view class="progress-bar">
+                    <view class="drag-progress-bar-icon" style="left: {{startPointX + '%'}};"
+                        catchtouchstart="dragTouchstart"
+                        catchtouchmove="dragTouchmove"
+                    >
+                        <view class="icon"></view>
+                    </view>
+                    <view class="progress-bar-select" style="width:  {{startPointX + '%'}}; "></view>
+
+                    <view class="progress-bar-hollow"></view>
+                </view>
+
+            </view>
+
+            <view class="drag-r drag-icon">
+            </view>
+        </view>
+    </view>
